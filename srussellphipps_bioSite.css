@@ -1,0 +1,128 @@
+html{
+    background-color: #4682BA;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #87CEFA;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+h1 {
+    font-weight: 400;
+}
+p {
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    padding: 20px;
+    
+}
+#navbar {
+    overflow: hidden;
+    background-color: #D8BFD8;
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#navbar a:hover{
+    background-color: #4682BA;
+    color: #87CEFA;
+}
+#container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+#image-gallery {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.image-1 {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: rgba(185, 63, 8);
+    float: left;
+    width: 50px;
+    height: 60px;
+   
+}
+
+.image-2 {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: rgba(185, 63, 8);
+    float: left;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.image-3 {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: rgba(185, 63, 8);
+    float: left;
+    width: 30px;
+    height: 30px;
+    
+}
+#text {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    float: right;
+
+}
+#text-1{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 2px solid #D8BFD8;
+    border-radius: 15px;
+    padding: 20px;
+    float: right;
+    width: 250px;
+    margin: 10;
+}
+    
+#text-2{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 2px solid #D8BFD8;
+    border-radius: 15px;
+    padding: 20px;
+    float: right;
+    width: 250px;
+    margin: 10;
+}
+#text-3{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 2px solid #D8BFD8;
+    border-radius: 15px;
+    padding: 20px;
+    float: right;
+    width: 250px;
+    margin: 10;
+}
+#imageHobbies-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
