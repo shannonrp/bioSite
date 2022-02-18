@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: 0;
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 header {
     background-color: #87CEFA;
@@ -12,14 +12,22 @@ header {
     text-align: center;
     font-weight: 500;
     font-size: large;
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     font-weight: 400;
 }
+h2 {
+    font-weight: 200;
+    font-size: large;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;  
+}
 p {
     float: right;
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
     
 }
@@ -46,7 +54,7 @@ p {
     margin-right: 5%;
     padding: 10px;
 }
-#image-gallery {
+.image-gallery {
     display: grid;
     grid-template-rows: auto auto auto;
 }
@@ -87,31 +95,11 @@ p {
     display: grid;
     grid-template-rows: auto auto auto;
     float: right;
-
+    vertical-align: text-top;
 }
-#text-1{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-weight: 300;
-    border: 2px solid #D8BFD8;
-    border-radius: 15px;
-    padding: 20px;
-    float: right;
-    width: 250px;
-    margin: 10;
-}
+#text p {
     
-#text-2{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-weight: 300;
-    border: 2px solid #D8BFD8;
-    border-radius: 15px;
-    padding: 20px;
-    float: right;
-    width: 250px;
-    margin: 10;
-}
-#text-3{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     border: 2px solid #D8BFD8;
     border-radius: 15px;
@@ -124,5 +112,8 @@ p {
     display: grid;
     grid-template-columns: auto auto auto;
 }
-
+footer{
+    position: fixed;
+    bottom: 0;
+}
 
