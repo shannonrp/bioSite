@@ -54,43 +54,6 @@ p {
     margin-right: 5%;
     padding: 10px;
 }
-.image-gallery {
-    display: grid;
-    grid-template-rows: auto auto auto;
-}
-
-.image-1 {
-    border: 1px solid red;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: rgba(185, 63, 8);
-    float: left;
-    width: 50px;
-    height: 60px;
-   
-}
-
-.image-2 {
-    border: 1px solid red;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: rgba(185, 63, 8);
-    float: left;
-    width: 30px;
-    height: 30px;
-    
-}
-
-.image-3 {
-    border: 1px solid red;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: rgba(185, 63, 8);
-    float: left;
-    width: 30px;
-    height: 30px;
-    
-}
 #text {
     display: grid;
     grid-template-rows: auto auto auto;
@@ -107,6 +70,7 @@ p {
     float: right;
     width: 250px;
     margin: 10;
+   
 }
 #imageHobbies-gallery {
     display: grid;
@@ -115,5 +79,12 @@ p {
 footer{
     position: fixed;
     bottom: 0;
+}
+td p {
+    background-color: #D8BFD8;
+    font-size: 20px;
+}
+td {
+    font-size: 18px;
 }
 
