@@ -54,24 +54,6 @@ p {
     margin-right: 5%;
     padding: 10px;
 }
-#text {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    float: right;
-    vertical-align: text-top;
-}
-#text p {
-    
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    border: 2px solid #D8BFD8;
-    border-radius: 15px;
-    padding: 20px;
-    float: right;
-    width: 250px;
-    margin: 10;
-   
-}
 #imageHobbies-gallery {
     display: grid;
     grid-template-columns: auto auto auto;
