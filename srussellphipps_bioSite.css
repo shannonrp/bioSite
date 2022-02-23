@@ -65,8 +65,18 @@ footer{
 td p {
     background-color: #D8BFD8;
     font-size: 20px;
+    border: 8px solid #87CEFA;
 }
 td {
     font-size: 18px;
+}
+#image-gallery img {
+    border: 8px solid #87CEFA;
+}
+#imageAbout-gallery img {
+    border: 8px solid #87CEFA;
+}
+#imageHobbies-gallery img {
+    border: 8px solid #87CEFA;
 }
 
